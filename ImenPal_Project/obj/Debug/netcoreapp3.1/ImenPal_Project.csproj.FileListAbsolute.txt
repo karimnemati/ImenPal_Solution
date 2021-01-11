@@ -732,3 +732,9 @@ c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Proj
 c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\ImenPal_Project.dll
 c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\ImenPal_Project.pdb
 c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\ImenPal_Project.genruntimeconfig.cache
+c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\Razor\Areas\AdminClient\Views\Login\forgot_pwd.cshtml.g.cs
+c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\Razor\Areas\AdminClient\Views\Login\signup.cshtml.g.cs
+c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\Razor\Areas\AdminClient\Views\Login\Login.cshtml.g.cs
+c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\Razor\Areas\AdminClient\Views\Login\LoginCode.cshtml.g.cs
+c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\Razor\Areas\AdminClient\Views\Login\signupCode.cshtml.g.cs
+c:\Users\Neati\Desktop\ImenPal20212021\ImenPal2021\ImenPal_Solution\ImenPal_Project\obj\Debug\netcoreapp3.1\Razor\Areas\AdminClient\Views\Login\signupEnd.cshtml.g.cs

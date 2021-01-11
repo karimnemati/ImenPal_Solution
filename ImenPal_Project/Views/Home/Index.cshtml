@@ -66,8 +66,7 @@
 
         .ml14 .text-wrapper {
             position: relative;
-            @*display: inline-block;
-            *@padding-top: 0.1em;
+            @*display:inline-block;*@padding-top: 0.1em;
             padding-right: 0.05em;
             padding-bottom: 0.15em;
         }
@@ -84,8 +83,7 @@
         }
 
         .ml14 .letter {
-            @*display: inline-block;
-            *@line-height: 1em;
+            @*display:inline-block;*@line-height: 1em;
         }
     </style>
 </head>
@@ -119,23 +117,19 @@
                         </li>
                     </ul>
 
-
-
-
-
                     <ul>
                         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
                     </ul>
 
                     <ul class="head-login hidden-for-large-up">
-                        <li><a href="user/auth.html">ورود</a></li>
+                        <li><a href="AdminClient/Login/login">ورود</a></li>
                     </ul>
 
                     <section class="top-bar-section right">
                         @* <ul id="secondary-menu" class="secondary link-list left">
                             <li class="login first"><a href="user/auth.html">ورود</a></li>
                             <li class="register last"><a href="user/auth.html">ثبت نام</a></li>
-                        </ul> *@
+                            </ul> *@
                         <ul id="main-menu" class="main-nav right ">
                             <li class="first leaf"><a href="/#" class="active">خانه</a></li>
                             <li class="leaf"><a href="/#">ایمن پال چیست؟</a></li>
@@ -185,8 +179,8 @@
                             <br>
                             <br>
 
-                            <a href="/#" class="button round">ثبت نام در ایمن پال <span
-                                    class="icon-backspace"></span></a> <a href="/#" class="button round shop-maker">ورود
+                            <a href="/AdminClient/Login/signup" class="button round">ثبت نام در ایمن پال <span
+                                    class="icon-backspace"></span></a> <a href="/AdminClient/Login/login" class="button round shop-maker">ورود
                                 <span class="icon-backspace"></span></a>
 
                         </div>
@@ -209,29 +203,29 @@
                         <div class="card row ">
 
                             @*
-                                                <div class="card-head row">
-                                                <div class="columns small-6"><img class="img-logo" typeof="foaf:Image"
-                                                src="~/HomePageWeb/assets/Img/Logo2.png" alt="ImenPal card logo">
-                                                </div>
-                                                <div class="columns small-6 text-left"><img
-                                                src="https://static.idpay.ir/images/card-shetab.png" class="img-shetab"
-                                                alt="ImenPal - shetab"></div>
-                                                </div> *@
+                                                    <div class="card-head row">
+                                                    <div class="columns small-6"><img class="img-logo" typeof="foaf:Image"
+                                                    src="~/HomePageWeb/assets/Img/Logo2.png" alt="ImenPal card logo">
+                                                    </div>
+                                                    <div class="columns small-6 text-left"><img
+                                                    src="https://static.idpay.ir/images/card-shetab.png" class="img-shetab"
+                                                    alt="ImenPal - shetab"></div>
+                                                    </div> *@
                             @* <div style="text-align: left;" class="card row ">
-                                                <img src="~/HomePageWeb/assets/Img/Broken_Glass.png">
-                                                <div class="card-content text-left row centered"><span
-                                                class="domain">imenpal.com/</span> <span class="text"></span>
-                                                </div>
-                                                </div> *@
+                                                    <img src="~/HomePageWeb/assets/Img/Broken_Glass.png">
+                                                    <div class="card-content text-left row centered"><span
+                                                    class="domain">imenpal.com/</span> <span class="text"></span>
+                                                    </div>
+                                                    </div> *@
 
                             @* <div class="card-content text-Right row"><span class="domain"> imenpal.com/</span> <span
-                                                class="text"></span>
-                                                </div> *@
+                                                    class="text"></span>
+                                                    </div> *@
 
                             @* <div class="card- row">
-                                                <div class="columns small-6">۳۵۳۴۲۱</div>
-                                                <div class="columns small-6 text-left">۱۱/۰۴</div>
-                                                </div> *@
+                                                    <div class="columns small-6">۳۵۳۴۲۱</div>
+                                                    <div class="columns small-6 text-left">۱۱/۰۴</div>
+                                                    </div> *@
 
 
                         </div>
@@ -299,72 +293,72 @@
             @* <div class="row text-center">
 
                 <div class="columns medium-2 text-center medium-offset-1"><a class="app-download-link" href="/#"><img
-                            src="https://static.idpay.ir/images/badge-google-play.png" alt="دریافت از Google Play"></a>
+                src="https://static.idpay.ir/images/badge-google-play.png" alt="دریافت از Google Play"></a>
                 </div>
 
                 <div class="columns medium-2 text-center"><a class="app-download-link" href="/#"><img
-                            src="https://static.idpay.ir/images/badge-cafebazaar.png" alt="دریافت از کافه بازار"></a>
+                src="https://static.idpay.ir/images/badge-cafebazaar.png" alt="دریافت از کافه بازار"></a>
                 </div>
 
 
                 <div class="columns medium-4 text-center"><a href="/#"><img style="height: 52; width: 150;"
-                            src="~/HomePageWeb/assets/Img/badge-Android.png" alt="دریافت از مایکت"></a>
+                src="~/HomePageWeb/assets/Img/badge-Android.png" alt="دریافت از مایکت"></a>
                 </div>
 
 
                 <div class="columns medium-2 text-center"><a class="app-download-link" href="/#"><img
-                            src="https://static.idpay.ir/images/badge-sibapp.png" alt="دریافت از سیب اپ"></a>
+                src="https://static.idpay.ir/images/badge-sibapp.png" alt="دریافت از سیب اپ"></a>
                 </div>
 
 
                 <div class="columns medium-2 text-center end"><a class="app-download-link" href="/#"><img
-                            src="https://static.idpay.ir/images/badge-iapps.png" alt="دریافت از آی اپس"></a>
+                src="https://static.idpay.ir/images/badge-iapps.png" alt="دریافت از آی اپس"></a>
                 </div>
 
 
-            </div> *@
+                </div> *@
         </div>
 
         @*
-        <div class="easy">
+            <div class="easy">
             <div class="row">
 
-                <div class="columns">
-                    <h3 class="text-center title">آسان در 3 شماره درگاه پرداخت شخصی تان را ایجاد کنید!</h3>
-                    <div class="text-center sub-title">ایمن پال خودتان را بسازید</div>
-                </div>
-                <div class="line show-for-medium-up"></div>
+            <div class="columns">
+            <h3 class="text-center title">آسان در 3 شماره درگاه پرداخت شخصی تان را ایجاد کنید!</h3>
+            <div class="text-center sub-title">ایمن پال خودتان را بسازید</div>
+            </div>
+            <div class="line show-for-medium-up"></div>
 
 
-                <div class="columns medium-4 text-center">
-                    <div class="box-icon"><span class="icon-person-add"></span> <span
-                            class="arrow icon-arrow-left show-for-medium-up"></span></div>
-                    <h3 class="box-title">۱. ثبت نام در سایت</h3>
-                    <p class="box-text">بر روی دکمه نارنجی <a href="/#" target="_blank">ثبت نام و ساخت
-                            درگاه</a> در بالای صفحه، کلیک کنید. پس از وارد کردن شماره موبایل با شما تماس گرفته شده و کد
-                        تایید به برای شما ارسال می شود.</p>
-                </div>
+            <div class="columns medium-4 text-center">
+            <div class="box-icon"><span class="icon-person-add"></span> <span
+            class="arrow icon-arrow-left show-for-medium-up"></span></div>
+            <h3 class="box-title">۱. ثبت نام در سایت</h3>
+            <p class="box-text">بر روی دکمه نارنجی <a href="/#" target="_blank">ثبت نام و ساخت
+            درگاه</a> در بالای صفحه، کلیک کنید. پس از وارد کردن شماره موبایل با شما تماس گرفته شده و کد
+            تایید به برای شما ارسال می شود.</p>
+            </div>
 
 
-                <div class="columns medium-4 text-center">
-                    <div class="box-icon"><span class="icon-credit-card"></span> <span
-                            class="arrow icon-arrow-left show-for-medium-up"></span></div>
-                    <h3 class="box-title">۲. ساخت حساب و درگاه</h3>
-                    <p class="box-text">بعد از تایید شماره موبایلتان، اطلاعات فردی خود را کامل نموده و با وارد کردن
-                        شماره شبا و شماره حسابتان ثبت نام خود را تکمیل نمایید.</p>
-                </div>
+            <div class="columns medium-4 text-center">
+            <div class="box-icon"><span class="icon-credit-card"></span> <span
+            class="arrow icon-arrow-left show-for-medium-up"></span></div>
+            <h3 class="box-title">۲. ساخت حساب و درگاه</h3>
+            <p class="box-text">بعد از تایید شماره موبایلتان، اطلاعات فردی خود را کامل نموده و با وارد کردن
+            شماره شبا و شماره حسابتان ثبت نام خود را تکمیل نمایید.</p>
+            </div>
 
 
-                <div class="columns medium-4 text-center">
-                    <div class="box-icon"><span class="idpay">ImenPal</span></div>
-                    <h3 class="box-title">۳. ارسال لینک به دیگران</h3>
-                    <p class="box-text">حالا درگاه پرداخت شخصی شما آماده است و با ارسال لینک ایمن پال خود به دیگران
-                        میتوانید پول دریافت کنید :)</p>
-                </div>
+            <div class="columns medium-4 text-center">
+            <div class="box-icon"><span class="idpay">ImenPal</span></div>
+            <h3 class="box-title">۳. ارسال لینک به دیگران</h3>
+            <p class="box-text">حالا درگاه پرداخت شخصی شما آماده است و با ارسال لینک ایمن پال خود به دیگران
+            میتوانید پول دریافت کنید :)</p>
+            </div>
 
 
             </div>
-        </div>
+            </div>
         *@
 
 
@@ -607,95 +601,78 @@
 
             <div class="row footer">
 
-                
-                
-
-
-
-
 
                 <div class="columns medium-6">
 
-                
-
-                 
                     <section class="block block-menu columns medium-6 block-menu-menu-footer-1">
-                            <ul class="menu">
-                                <li class="first leaf"><a href="index.htm" class="active">صفحه اصلی</a></li>
-                                <li class="leaf"><a href="terms.html">قوانین و شرایط استفاده</a></li>
-                                <li class="leaf"><a href="privacy.html">حریم خصوصی</a></li>
-                                <li class="leaf"><a href="about.html">درباره ما</a></li>
-                                <li class="leaf"><a href="contact.html">تماس با ما</a></li>
-                                <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
-                                                                <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
+                        <ul class="menu">
+                            <li class="first leaf"><a href="index.htm" class="active">صفحه اصلی</a></li>
+                            <li class="leaf"><a href="terms.html">قوانین و شرایط استفاده</a></li>
+                            <li class="leaf"><a href="privacy.html">حریم خصوصی</a></li>
+                            <li class="leaf"><a href="about.html">درباره ما</a></li>
+                            <li class="leaf"><a href="contact.html">تماس با ما</a></li>
+                            <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
+                            <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
 
-                                <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
+                            <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
 
-                            </ul>
+                        </ul>
 
                     </section>
 
                     <section class="block block-menu columns medium-6 block-menu-menu-footer-2">
-                            <ul class="menu">
-                                <li class="first leaf"><a href="https://blog.imenpal.com">بلاگ</a></li>
-                                <li class="leaf"><a href="what.html">ایمن پال چیست؟</a></li>
-                                <li class="leaf"><a href="banks.html">دریافت شماره شبا</a></li>
-                                <li class="leaf"><a href="/web-service">راهنمای API پرداخت</a></li>
-                                <li class="leaf"><a href="plugins.html">پلاگین و افزونه های پرداخت</a></li>
-                                <li class="last leaf"><a href="app.html">دانلود اپلیکیشن</a></li>
-                                                                <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
+                        <ul class="menu">
+                            <li class="first leaf"><a href="https://blog.imenpal.com">بلاگ</a></li>
+                            <li class="leaf"><a href="what.html">ایمن پال چیست؟</a></li>
+                            <li class="leaf"><a href="banks.html">دریافت شماره شبا</a></li>
+                            <li class="leaf"><a href="/web-service">راهنمای API پرداخت</a></li>
+                            <li class="leaf"><a href="plugins.html">پلاگین و افزونه های پرداخت</a></li>
+                            <li class="last leaf"><a href="app.html">دانلود اپلیکیشن</a></li>
+                            <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
 
-                                <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
+                            <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
 
-                            </ul>
+                        </ul>
                     </section>
 
-
-                                     
+                   
+                    
                     <div class="row ">
-                        <div class="columns small-6 medium-2"><img 
-                        style="height: 30px; width: 30px;"  src="~/HomePageWeb/assets/Img/Twtter.png"
-                                title="Twtter" alt="Twtter">
+
+                         <div class="columns small-2 medium-2"><img style="height: 30px; width: 30px;"
+                            src="~/HomePageWeb/assets/Img/Linkdin.png" title="Linkdin" alt="Linkdin">
+                    </div>
+
+                        <div class="columns small-2 medium-2"><img style="height: 30px; width: 30px;"
+                                src="~/HomePageWeb/assets/Img/Twtter.png" title="Twtter" alt="Twtter">
+                        </div>
+
+                        <div class="columns small-2 medium-2"><img style="height: 30px; width: 30px;"
+                                src="~/HomePageWeb/assets/Img/Aparat.png" title="Aparat" alt="Aparat">
                         </div>
 
 
-                        <div class="columns small-6 medium-2"><img 
-                        style="height: 30px; width: 30px;"  src="~/HomePageWeb/assets/Img/Telegram.png"
-                                title="Telegram"
-                                alt="Telegram">
-                                </div>
-
-
-
-                        <div class="columns small-6 medium-2"><img 
-                        style="height: 30px; width: 30px;"  src="~/HomePageWeb/assets/Img/Instagram.png"
-                                title="Instagram"
-                                alt="Instagram">
-                                </div>
-
-
-                        <div class="columns small-6 medium-2"><img 
-                        style="height: 30px; width: 30px;"  src="~/HomePageWeb/assets/Img/Linkdin.png"
-                                title="Linkdin" alt="Linkdin">
-                        </div>
-
-                          <div class="columns small-6 medium-2"><img 
-                        style="height: 30px; width: 30px;"  src="~/HomePageWeb/assets/Img/Aparat.png"
-                                title="Aparat" alt="Aparat">
+                        <div class="columns small-2 medium-2"><img style="height: 30px; width: 30px;"
+                                src="~/HomePageWeb/assets/Img/Linkdin.png" title="Linkdin" alt="Linkdin">
                         </div>
 
 
-                          <div class="columns small-6 medium-2"><img 
-                        style="height: 30px; width: 30px;"  src="~/HomePageWeb/assets/Img/Linkdin.png"
-                                title="Linkdin" alt="Linkdin">
+                        <div class="columns small-2 medium-2"><img style="height: 30px; width: 30px;"
+                                src="~/HomePageWeb/assets/Img/Telegram.png" title="Telegram" alt="Telegram">
                         </div>
+
+
+                        <div class="columns small-2 medium-2"><img style="height: 30px; width: 30px;"
+                                src="~/HomePageWeb/assets/Img/Instagram.png" title="Instagram" alt="Instagram">
+                        </div>
+
 
                     </div>
 
                     <br>
                     <br>
 
-                        <p style="text-align: center;"> ما را در شبکه های مجازی دنبال کنید</p>
+                    <p style="text-align: center;"> ما را در شبکه های مجازی دنبال کنید</p>
 
 
 
@@ -707,7 +684,7 @@
 
 
 
-             
+
 
 
 
@@ -745,26 +722,25 @@
 
 
 
-                    
+
                     <div class="row columns ">
-                        <div style="height: 175px; width: 120px;" class="columns small-6 medium-4"><img
+                        <div style="height: 175px; width: 110px;" class="columns small-6 medium-4"><img
                                 src="~/HomePageWeb/assets/Img/Nemad-Ele.png"
-                                title="همکاری با شرکت پرداخت الکترونیک سداد" 
-                                alt="همکاری با شرکت پرداخت الکترونیک سداد">
+                                title="همکاری با شرکت پرداخت الکترونیک سداد" alt="همکاری با شرکت پرداخت الکترونیک سداد">
                         </div>
-                       
-                       
-                        <div style="height: 175px; width: 120px;" class="columns small-6 medium-4"><img
+
+
+                        <div style="height: 175px; width: 110px;" class="columns small-6 medium-4"><img
                                 src="~/HomePageWeb/assets/Img/Nemad-Ele.png"
                                 title="همکاری با شرکت پرداخت الکترونیک سامان کیش"
                                 alt="همکاری با شرکت پرداخت الکترونیک سامان کیش"></div>
-                      
-                      
-                        <div style="height: 175px; width: 120px;" class="columns small-6 medium-4"><img 
+
+
+                        <div style="height: 175px; width: 110px;" class="columns small-6 medium-4"><img
                                 src="~/HomePageWeb/assets/Img/Neshan-Meli.png"
                                 title="همکاری با شرکت تجارت الکترونیک پارسیان"
                                 alt="همکاری با شرکت تجارت الکترونیک پارسیان"></div>
-                        
+
                     </div>
 
 
@@ -806,60 +782,60 @@
                 @*
 
 
-                <div class="columns medium-8">
+                    <div class="columns medium-8">
 
                     <div class="row co-worker">
-                        <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
-                                data-options="disable_for_touch:true" class="has-tip"
-                                src="https://static.idpay.ir/images/gateway-logo-sadad.png"
-                                title="همکاری با شرکت پرداخت الکترونیک سداد" alt="همکاری با شرکت پرداخت الکترونیک سداد">
-                        </div>
-                        <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
-                                data-options="disable_for_touch:true" class="has-tip"
-                                src="https://static.idpay.ir/images/gateway-logo-saman.svg"
-                                title="همکاری با شرکت پرداخت الکترونیک سامان کیش"
-                                alt="همکاری با شرکت پرداخت الکترونیک سامان کیش"></div>
-                        <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
-                                data-options="disable_for_touch:true" class="has-tip"
-                                src="https://static.idpay.ir/images/gateway-logo-pecco.svg"
-                                title="همکاری با شرکت تجارت الکترونیک پارسیان"
-                                alt="همکاری با شرکت تجارت الکترونیک پارسیان"></div>
-                        <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
-                                data-options="disable_for_touch:true" class="has-tip"
-                                src="https://static.idpay.ir/images/gateway-logo-behpardakht.svg"
-                                title="همکاری با شرکت به پرداخت ملت" alt="همکاری با شرکت به پرداخت ملت">
-                        </div>
+                    <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
+                    data-options="disable_for_touch:true" class="has-tip"
+                    src="https://static.idpay.ir/images/gateway-logo-sadad.png"
+                    title="همکاری با شرکت پرداخت الکترونیک سداد" alt="همکاری با شرکت پرداخت الکترونیک سداد">
+                    </div>
+                    <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
+                    data-options="disable_for_touch:true" class="has-tip"
+                    src="https://static.idpay.ir/images/gateway-logo-saman.svg"
+                    title="همکاری با شرکت پرداخت الکترونیک سامان کیش"
+                    alt="همکاری با شرکت پرداخت الکترونیک سامان کیش"></div>
+                    <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
+                    data-options="disable_for_touch:true" class="has-tip"
+                    src="https://static.idpay.ir/images/gateway-logo-pecco.svg"
+                    title="همکاری با شرکت تجارت الکترونیک پارسیان"
+                    alt="همکاری با شرکت تجارت الکترونیک پارسیان"></div>
+                    <div class="columns small-6 medium-3"><img data-tooltip="" aria-haspopup="true"
+                    data-options="disable_for_touch:true" class="has-tip"
+                    src="https://static.idpay.ir/images/gateway-logo-behpardakht.svg"
+                    title="همکاری با شرکت به پرداخت ملت" alt="همکاری با شرکت به پرداخت ملت">
+                    </div>
                     </div>
 
 
                     <div class="row footer-content">
 
-                        <section class="block block-menu columns medium-6 block-menu-menu-footer-1">
-                            <ul class="menu">
-                                <li class="first leaf"><a href="index.htm" class="active">صفحه اصلی</a></li>
-                                <li class="leaf"><a href="terms.html">قوانین و شرایط استفاده</a></li>
-                                <li class="leaf"><a href="privacy.html">حریم خصوصی</a></li>
-                                <li class="leaf"><a href="about.html">درباره ما</a></li>
-                                <li class="leaf"><a href="contact.html">تماس با ما</a></li>
-                                <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
-                            </ul>
+                    <section class="block block-menu columns medium-6 block-menu-menu-footer-1">
+                    <ul class="menu">
+                    <li class="first leaf"><a href="index.htm" class="active">صفحه اصلی</a></li>
+                    <li class="leaf"><a href="terms.html">قوانین و شرایط استفاده</a></li>
+                    <li class="leaf"><a href="privacy.html">حریم خصوصی</a></li>
+                    <li class="leaf"><a href="about.html">درباره ما</a></li>
+                    <li class="leaf"><a href="contact.html">تماس با ما</a></li>
+                    <li class="last leaf"><a href="faq.html">پرسش های متداول</a></li>
+                    </ul>
 
-                        </section>
+                    </section>
 
-                        <section class="block block-menu columns medium-6 block-menu-menu-footer-2">
-                            <ul class="menu">
-                                <li class="first leaf"><a href="https://blog.imenpal.com">بلاگ</a></li>
-                                <li class="leaf"><a href="what.html">ایمن پال چیست؟</a></li>
-                                <li class="leaf"><a href="banks.html">دریافت شماره شبا</a></li>
-                                <li class="leaf"><a href="/web-service">راهنمای API پرداخت</a></li>
-                                <li class="leaf"><a href="plugins.html">پلاگین و افزونه های پرداخت</a></li>
-                                <li class="last leaf"><a href="app.html">دانلود اپلیکیشن</a></li>
-                            </ul>
-                        </section>
+                    <section class="block block-menu columns medium-6 block-menu-menu-footer-2">
+                    <ul class="menu">
+                    <li class="first leaf"><a href="https://blog.imenpal.com">بلاگ</a></li>
+                    <li class="leaf"><a href="what.html">ایمن پال چیست؟</a></li>
+                    <li class="leaf"><a href="banks.html">دریافت شماره شبا</a></li>
+                    <li class="leaf"><a href="/web-service">راهنمای API پرداخت</a></li>
+                    <li class="leaf"><a href="plugins.html">پلاگین و افزونه های پرداخت</a></li>
+                    <li class="last leaf"><a href="app.html">دانلود اپلیکیشن</a></li>
+                    </ul>
+                    </section>
 
 
                     </div>
-                </div>
+                    </div>
 
                 *@
 
@@ -883,7 +859,7 @@
                                         rel="nofollow" target="_blank">ایمن پال</a> می باشد.</p>
                             </div>
                             <div class="columns medium-4 medium-text-left">
-                            
+
                             </div>
                         </div>
                     </section>

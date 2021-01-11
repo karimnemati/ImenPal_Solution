@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Login\\signupCode.cshtml",
+      "TargetPath": "Areas\\AdminClient\\Views\\Login\\signupCode.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14424,11 @@
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminManager\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Areas\\AdminManager\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Login\\signupEnd.cshtml",
+      "TargetPath": "Areas\\AdminClient\\Views\\Login\\signupEnd.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14434,6 +14444,11 @@
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\AdminClient\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Login\\Login.cshtml",
+      "TargetPath": "Areas\\AdminClient\\Views\\Login\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14472,8 +14487,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Login\\signup.cshtml",
+      "TargetPath": "Areas\\AdminClient\\Views\\Login\\signup.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Areas\\AdminClient\\Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Login\\LoginCode.cshtml",
+      "TargetPath": "Areas\\AdminClient\\Views\\Login\\LoginCode.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\ImenPal20212021\\ImenPal2021\\ImenPal_Solution\\ImenPal_Project\\Areas\\AdminClient\\Views\\Login\\forgot_pwd.cshtml",
+      "TargetPath": "Areas\\AdminClient\\Views\\Login\\forgot_pwd.cshtml",
       "FileKind": "mvc"
     },
     {
